@@ -1,0 +1,95 @@
+/* большая рамка */
+.rectangle_320 {
+  position: absolute;
+width: 320px;
+height: 568px;
+left: 0px;
+top: -12px;
+
+background: linear-gradient(180deg, #31333B 13.26%, #363945 74.59%, #2B2D35 100%);
+}
+/* рамка c выбранными героями */
+.rectangle_320_select {
+  position: absolute;
+width: 320px;
+height: 168px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(180deg, #555761 -51.19%, #2B2D35 100%);
+}
+
+/*  рамка со вселенными */
+.rectangle_320_univer {
+  position: absolute;
+width: 320px;
+height: 96px;
+left: 0px;
+top: 472px;
+
+background: #31333D;
+}
+
+/*  поле поиска */
+.search {
+  position: absolute;
+height: 56px;
+left: 16px;
+right: 16px;
+top: 215px;
+
+background: #4B4E5C;
+border-radius: 8px;
+
+}
+
+
+input::placeholder {
+  color: #FFFFFF;
+}
+input {
+  position: absolute;
+left: 14px;
+right: 49px;
+top: 33.93%;
+bottom: 32.14%;
+border: none;
+background: none;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: normal;
+
+color: #FFFFFF;
+}
+
+#loupe {
+  position: absolute;
+width: 24px;
+height: 24px;
+right: 15px;
+top: 16px;
+}
+
+.radio-container{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  border: none;
+}
+.radio-container .radio-btn.nth-2{width: calc(auto);}
+
+.radio-container .radio-btn label{
+  background-color: transparent;
+  color: #000;
+  display: block;
+  padding: 6px 12px;
+  text-align: center;
+  opacity: 0.2;
+}
+.radio-container .radio-btn input{display: none;}
+.radio-container .radio-btn input:checked + label{
+  opacity: 1;
+}
